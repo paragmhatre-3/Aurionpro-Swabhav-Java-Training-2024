@@ -1,0 +1,5 @@
+package com.aurionpro.isp.violition.model;
+
+public interface IWorker {
+
+}

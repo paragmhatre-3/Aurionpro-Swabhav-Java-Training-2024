@@ -1,0 +1,8 @@
+package com.aurionpro.structural.adapter.model;
+
+public class Biscuit {
+	private String name;
+	private int mrp;
+	
+
+}

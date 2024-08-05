@@ -1,0 +1,5 @@
+package com.aurionpro.srp.violition.model;
+
+public class TaxCalculator {
+
+}

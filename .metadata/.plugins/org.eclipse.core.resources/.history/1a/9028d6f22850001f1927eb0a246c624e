@@ -1,0 +1,20 @@
+package com.aurionpro.structural.decorator.model;
+
+public class HatDecorator implements IHat{
+
+	@Override
+	public String getName() {
+		return null;
+	}
+
+	@Override
+	public double getPrice() {
+		return 0;
+	}
+
+	@Override
+	public String getDescription() {
+		return null;
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.aurionpro.structural.facade.model;
+
+public class HomeTheatre {
+	public void movieTime(int volume) {
+		DvdPlayer dvdPlayer = new DvdPlayer();
+		Projector projector = new Projector();
+		SoundSystem soundSystem = new SoundSystem(volume);
+		
+		
+	}
+}

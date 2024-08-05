@@ -1,0 +1,19 @@
+package com.aurionpro.structural.adapter.test;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.aurionpro.structural.adapter.model.Biscuit;
+import com.aurionpro.structural.adapter.model.ShoppingCart;
+
+public class ShoppingCartTest {
+
+	public static void main(String[] args) {
+		List initialItems = new ArrayList();
+		Biscuit biscuit1 = new Biscuit("Milk Bikis",100);
+		ShoppingCart shopper1 = new ShoppingCart(initialItems);
+		
+
+	}
+
+}

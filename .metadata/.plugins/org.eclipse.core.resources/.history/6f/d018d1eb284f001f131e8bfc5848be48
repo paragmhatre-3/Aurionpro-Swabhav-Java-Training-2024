@@ -1,0 +1,6 @@
+package com.aurionpro.creational.factory.model;
+
+public interface ICars {
+	public void start();
+	public void stop();
+}

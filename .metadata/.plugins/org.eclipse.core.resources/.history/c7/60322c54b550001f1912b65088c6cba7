@@ -1,0 +1,11 @@
+package com.aurionpro.behavioral.observer.model;
+
+public class WhatsAppNotifier implements INotifier{
+
+	@Override
+	public void notification(Account account) {
+		System.out.println("WhatsApp Notification");
+		
+	}
+
+}

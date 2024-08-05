@@ -1,0 +1,30 @@
+package com.aurionpro.isp.solution.model;
+
+public class Labour implements IWorkable, ILunchInterval{
+
+	@Override
+	public void eat() {
+		System.out.println("Worker has is Eating!");
+		
+	}
+
+	@Override
+	public void rest() {
+		System.out.println("Worker has is Resting!");
+
+		
+	}
+
+	@Override
+	public void start() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void stop() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

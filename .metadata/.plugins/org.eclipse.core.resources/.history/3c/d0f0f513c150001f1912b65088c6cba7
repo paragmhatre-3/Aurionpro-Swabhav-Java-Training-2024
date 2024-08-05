@@ -1,0 +1,5 @@
+package com.aurionpro.behavioral.strategy.model;
+
+public class OperationStrategy {
+
+}

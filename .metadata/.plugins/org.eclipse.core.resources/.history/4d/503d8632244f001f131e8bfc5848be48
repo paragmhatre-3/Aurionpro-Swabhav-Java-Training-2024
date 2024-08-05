@@ -1,0 +1,8 @@
+package com.aurionpro.creational.factory.model;
+
+public class CurrentAccount {
+	private double accountNumber;
+	private String name;
+	private int balance;
+	public int draftLimit = balance*2;
+}

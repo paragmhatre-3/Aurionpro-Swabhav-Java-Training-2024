@@ -1,0 +1,12 @@
+package com.aurionpro.creational.factory.model;
+
+public class AccountCreator {
+	public IAccount createAccount(AccountType accountType) {
+		IAccount account = null;
+		if(accountType==AccountType.SAVINGS)
+			account = new SavingsAccount();
+		if(accountType==AccountType.CURRENT)
+			account = new CurrentAccount();
+		return account;
+	}
+}

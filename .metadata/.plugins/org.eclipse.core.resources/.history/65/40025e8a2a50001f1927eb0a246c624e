@@ -1,0 +1,17 @@
+package com.aurionpro.structural.decorator.test;
+
+import com.aurionpro.structural.decorator.model.IHat;
+import com.aurionpro.structural.decorator.model.RibbonedHat;
+import com.aurionpro.structural.decorator.model.StandardHat;
+
+public class HatDecoratorTest {
+
+	public static void main(String[] args) {
+		IHat hat1 = new StandardHat();
+		RibbonedHat ribbonedHat1 = new RibbonedHat(hat1);
+		ribbonedHat1.getName();
+		ribbonedHat1.getPrice();
+		ribbonedHat1.getDescription();
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.aurionpro.creational.factory.model;
+
+public class SavingsAccount implements IAccount{
+	public static int minimumBalance = 500;
+	private double accountNumber;
+	private String name;
+	private int balance;
+	
+	
+	@Override
+	public int credit(int amount) {
+		balance += amount;
+		return balance;
+	}
+
+	@Override
+	public int debit(int amount) {
+		if((balance-=amount) > minimumBalance)
+			balance -= amount;
+		return balance;
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.aurionpro.srp.solution.test;
+
+import com.aurionpro.srp.violition.model.Invoice;
+
+public class InvoiceTest {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

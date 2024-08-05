@@ -1,0 +1,10 @@
+package com.aurionpro.structural.facade.model;
+
+public class SoundSystem {
+	public void turnOn() {
+		System.out.println("Sound System turned ON!");
+	}
+	public void turnOff() {
+		System.out.println("Sound System turned OFF!!");
+	}
+}

@@ -1,0 +1,3 @@
+Hello I'm a Text File that is used as an example for the File Class in Java!
+I'm happy to be involved, I'm ecstatic about my role in the  educational course.
+My name is text1 and my extension is .txt !
