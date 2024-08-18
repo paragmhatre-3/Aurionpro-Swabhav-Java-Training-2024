@@ -8,6 +8,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="24-springcore-app"/>
+			<item value="23-springcore-app"/>
 			<item value="17_Mockito_app"/>
 			<item value="16_UnitTesting_app"/>
 		</list>
@@ -36,6 +38,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -47,6 +50,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\aurionpro1\23-springcore-app\pom.xml"/>
+			<item value="D:\aurionpro1\22-bank-app\WebContent\CustomerView.jsp"/>
 			<item value="D:\aurionpro1\17_Mockito_app\src\main\java\com\aurionpro\model\Student.java"/>
 		</list>
 		<list key="projectNameTemplate">

@@ -1,9 +1,0 @@
-import com.aurionpro.structural.facade.model.HotelReception;
-
-public class HotelReceptionTest {
-	public static void main(String []args) {
-		HotelReception waiter = new HotelReception();
-		
-	}
-	
-}

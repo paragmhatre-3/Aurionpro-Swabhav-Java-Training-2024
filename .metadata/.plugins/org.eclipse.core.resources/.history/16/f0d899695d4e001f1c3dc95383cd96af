@@ -1,7 +1,0 @@
-package com.aurionpro.isp.solution.model;
-
-public class DBlogger {
-	public void log(String error){
-		
-	}
-}

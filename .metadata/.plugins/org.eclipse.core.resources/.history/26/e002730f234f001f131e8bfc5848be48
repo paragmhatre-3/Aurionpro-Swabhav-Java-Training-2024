@@ -1,6 +1,0 @@
-package com.aurionpro.creational.factory.model;
-
-public interface IAccount {
-	public String credit(int amount);
-	public String debit(int amount);
-}
